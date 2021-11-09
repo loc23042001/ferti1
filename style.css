@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.intro{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 35px;
+	position: absolute;
+	text-align: center;
+	left: 349px;
+	top: 102px;
+}
+.detailintro{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	text-align: center;
+	left: -31px;
+	top: 50px;
+	width: 254px;
+}
+.menu{
+	position: absolute;
+	text-align: center;
+	left: 415px;
+	top: 223px;
+
+}
+.menu1 a{
+	position: absolute;
+	color: black;
+	left: -82px;
+	top: 37px;
+	width: 191px;
+	border: 2px solid rgb(0,0,0);
+	border-width: 5px;
+	border-radius: 20px;
+	margin-right: 1100px;
+	padding: 10px;
+}
+.menu2 a{
+	position: absolute;
+	color: black;
+	left: -82px;
+	top: 87px;
+	width: 191px;
+	border: 2px solid rgb(0,0,0);
+	border-width: 5px;
+	border-radius: 20px;
+	margin-right: 1100px;
+	padding: 10px;
+}
+.menu1 a:hover{
+	background-color:rgb(51,204,0);
+	color:rgb(255,255,255);
+	border:2px solid rgb(255,255,0);
+	border-width: 5px;
+	border-radius: 20px;
+	margin-right: 1100px;
+	padding: 10px;
+	cursor:pointer;
+	transition:1s ease;
+}
+.menu2 a:hover{
+	background-color:rgb(51,204,0);
+	color:rgb(255,255,255);
+	border:2px solid rgb(255,255,0);
+	border-width: 5px;
+	border-radius: 20px;
+	margin-right: 1100px;
+	padding: 10px;
+	cursor:pointer;
+	transition:1s ease;
+}
